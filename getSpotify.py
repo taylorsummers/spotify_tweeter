@@ -41,7 +41,7 @@ def getSpotifyTopTen(username):
         sp.trace = False
         results = sp.current_user_top_tracks(time_range='short_term', limit=5)
         for i, item in enumerate(results['items']):
-            toAdd = i+1, "//", item['name'], "//", item['artists'][0]['name'], "\n"
+            toAdd = i+1, " // " + item['name'] + " // " + item['artists'][0]['name'] + "\n"
             songs += toAdd
         return(songs)
     else:
