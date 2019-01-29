@@ -117,4 +117,10 @@ done before working with this repository.
 
 10. Encrypt the refresh token using aws KLM and store in spotify_creds.json
 
+11. Run the setup.sh
+
+12. Upload your package to lambda
+
+13. Set up an event trigger
+
 
