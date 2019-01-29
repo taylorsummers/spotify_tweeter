@@ -3,5 +3,6 @@ import getSpotify
 
 def handler(event,context):
     tweet_list = getSpotify.getSpotifyTopTen('taylor7summers@gmail.com')
-    """Sends random tweet from list of potential tweets"""
+    print(tweet_list)
+    # Tweets out the list of songs
     sparrow_kms.send_tweet(tweet_list)
