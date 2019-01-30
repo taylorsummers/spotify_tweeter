@@ -10,50 +10,27 @@ Here are some things you should make sure are
 done before working with this repository.
 
 1. Install pip
-    The latest version of Python 2.7 should have 
-    pip installed by default so you likely have it 
-    already! If you need help getting pip read 
-    more here:
+
     http://pip.readthedocs.io/en/latest/installing/#install-pip
 
-    This should be the case for all modern operating systems.
 
 2. Install virtualenv
-    If you don't have virtualenv installed you can
-    install it with pip. One of these commands
-    should work:
     
     pip install virtualenv
     
     sudo pip install virtualenv
 
-    If neither of these commands work you can read
-    more in the documentation here:
-    https://virtualenv.pypa.io/en/stable/installation/
-
 3. Install boto3
-    If you don't have boto3 you can install it 
-    with pip. This command should work:
 
     pip install boto3
 
-    If you have any issues you can review the documentation here:
-    https://boto3.readthedocs.io/en/latest/guide/quickstart.html
-
 4. Install the AWS CLI
-    If you don't have the AWS Command Line 
-    Interface setup you can install it with pip. 
-    One of these commands should work:
 
     pip install awscli
 
     sudo pip install awscli
 
     sudo pip install awscli --ignore-installed six
-
-    If none of these commands work you can read
-    more in the documentation here:
-    http://docs.aws.amazon.com/cli/latest/userguide/installing.html
 
 5. Get your AWS Access Keys
     Log into the aws console and follow these
@@ -73,14 +50,8 @@ done before working with this repository.
 
     6. Choose Download Credentials, and store 
     the keys in a secure location.
-
-    If you have any issues with this step review the documentation:
-    Reference:
-    http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/AWSCredentials.html)
-
+    
 6. Configure the AWS CLI
-    Once you have your access keys you can 
-    configure the AWS CLI. 
 
     Open a shell and use this command:
 
@@ -96,11 +67,8 @@ done before working with this repository.
     Default region name [None]: us-east-1
     Default output format [None]: ENTER
 
-    You should now be ready to go with the AWS CLI
 
 7. Twython
-    You should be able to install Twython with:
-
     pip install twython
 
     But if you have any issues you can check the 
