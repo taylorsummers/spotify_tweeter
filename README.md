@@ -45,8 +45,8 @@ done before working with this repository.
     Security Credentials. Your credentials will 
     look something like this:
 
-    Access Key ID: AKIAIOSFODNN7EXAMPLE
-    Secret Access Key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+    Access Key ID: 
+    Secret Access Key: 
 
     6. Choose Download Credentials, and store 
     the keys in a secure location.
